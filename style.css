@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap'); /* Import the Lato font */
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nunito', sans-serif;
+    padding:0;
+    margin:0;
+    
+}
+
+h1 {
+  margin: 0;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+p {
+    line-height: 2;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 800px;
+}
+
+
+section {
+  margin: 2rem 0;
+}
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.video-block {
+  width: 350px;
+}
+iframe {
+  border-radius: 8px;
+  background: #000;
+}
+.side-navbar {
+  min-width: 200px;
+  color: #000;
+}
+.side-navbar ul {
+     position:sticky;
+    top:0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top:20px;
+}
+.side-navbar a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+.side-navbar a:hover {
+    background-color: #00848133;
+
+}
+
+.anchor-links{
+    padding-left:40px;
+    a{
+        display: list-item;
+    }
+}
