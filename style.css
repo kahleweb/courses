@@ -36,6 +36,11 @@ p {
 section {
   margin: 2rem 0;
 }
+
+section a{
+    color: #00b4b0;
+    text-decoration: none;
+}
 .videos {
   display: flex;
   flex-wrap: wrap;
