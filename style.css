@@ -9,6 +9,12 @@ body {
     
 }
 
+  @media (max-width: 800px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 h1 {
   margin: 0;
 }
